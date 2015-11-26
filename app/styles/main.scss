@@ -1,0 +1,31 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/components-font-awesome/scss/font-awesome.scss";
+// endbower
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+body {
+  // color: #FFF;
+  // background-color: #ccc;
+  //
+
+}
+.header{
+  margin-bottom: 40px;
+}
+.quote{
+  font-weight: bolder;
+  font-size: 2em;
+}
+.quote-author{
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 1.5em;
+  display: block;
+}
